@@ -1,18 +1,17 @@
 # PushPole for Android native
 
-Simple implementation of [PushPole](http://pushe.co) SDK using Android studio and Java.
+Simple implementation of [PushPole](http://push-pole.com) SDK using Android studio and Java.
 
 You can see other samples:
 
-* [Unity](https://github.com/ronashco/pushe-unity-sample)
-* [Basic4Android](https://github.com/ronashco/pushe-ba4-sample)
-* [Eclipse](https://github.com/ronashco/pushe-eclipse-sample)
+* [Unity](https://github.com/push-pole/unity-sample)
+* [Basic4Android](https://github.com/push-pole/ba4-sample)
 
 #### Run the example
 
 * Install git if you don't have it.
 * Run:
-`git clone https://github.com/pusheco/android-studio-sample.git`
+`git clone https://github.com/push-pole/android-studio-sample.git`
 * Open it with Android studio and run it on your device.
 
 #### Installation on your project
@@ -55,7 +54,7 @@ Now run and install your app on a device or emulator that has google-play-servic
 PushPole needs minimum android api=15 and google-play-service version >= 3 to run.
 
 ## More Info
-For detailed documentations visit https://pushe.co/docs/android-studio/
+For detailed documentations visit https://docs.push-pole.com/docs/android-studio/
 
 
 ## Contribution
@@ -65,7 +64,6 @@ It does not follow any specific code style. So just read the code a little bit a
 
 ## Support 
 #### Email:
-If you have any problem, please contact us using this email, we will get back to you right away:
-`support [at] pushe.co`
+If you have any problem, send us an issue.
 
 
