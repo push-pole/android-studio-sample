@@ -34,7 +34,7 @@ import com.pushpole.sample.as.utils.Stuff;
 import static com.pushpole.sample.as.utils.Stuff.addText;
 
 /**
- * For further information Go to <a href="https://pushe.co/docs">Docs</a>
+ * For further information Go to <a href="https://docs.push-pole.com">Docs</a>
  *
  * @author Mahdi Malvandi
  */
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
                     case 5: // Send to user
                         Stuff.prompt(MainActivity.this,
                                 "Send simple notification to user",
-                                "Enter pusheId\nMessage:{title:title1, content:content1}",
+                                "Enter pushPoleId\nMessage:{title:title1, content:content1}",
                                 PushPole.getId(MainActivity.this),
                                 new Consumer<String>() {
                                     @Override
@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
                     case 6: // send advanced to user
                         Stuff.prompt(MainActivity.this,
                                 "Send advanced notification to user",
-                                "Enter pusheId\nMessage:{title:title1, content:content1}",
+                                "Enter pushPoleId\nMessage:{title:title1, content:content1}",
                                 PushPole.getId(MainActivity.this),
                                 new Consumer<String>() {
                                     @Override
@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity {
                     case 0: // Initialize manually
                         Stuff.alert(MainActivity.this,
                                 "initialize(context,showDialog)",
-                                "Register this device to pushe and get FCM token from server.\nSecond argument: If googlePlay does not exist or not updated it will show a dialog to install (if set to true)");
+                                "Register this device to pushPole and get FCM token from server.\nSecond argument: If googlePlay does not exist or not updated it will show a dialog to install (if set to true)");
                         break;
                     case 1: // Check initialized
                         Stuff.alert(MainActivity.this,
@@ -245,13 +245,13 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 5: // send to user
                         Stuff.alert(MainActivity.this,
-                                "sendSimpleNotifToUser(context,pusheId,title,content)",
-                                "Having a pusheId of a device, you can send title and content to that device programmatically.");
+                                "sendSimpleNotifToUser(context,pushPoleId,title,content)",
+                                "Having a pushPoleId of a device, you can send title and content to that device programmatically.");
                         break;
                     case 6: // send advanced to user
                         Stuff.alert(MainActivity.this,
-                                "sendAdvancedNotifToUser(context,pusheId,notificationInJsonFormatAsString)",
-                                "Having a pusheId of a device, you can send complete notification in json format (jsonObject.toString()) to that device programmatically.");
+                                "sendAdvancedNotifToUser(context,pushPoleId,notificationInJsonFormatAsString)",
+                                "Having a pushPoleId of a device, you can send complete notification in json format (jsonObject.toString()) to that device programmatically.");
                         break;
                     case 7: // send event
                         Stuff.alert(MainActivity.this,

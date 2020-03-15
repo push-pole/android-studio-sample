@@ -17,13 +17,13 @@ You can see other samples:
 #### Installation on your project
 ```groovy
 dependencies {
-   implementation 'com.pushpole.android:pushsdk:1.7.0' // Or compile for lower gradles
+   implementation 'com.pushpole.android:pushsdk:1.7.1' // Or compile for lower gradles
 }
 
 ```
 #### AndroidManifest.xml
 
-Go to [PushPole console](https://console.pushe.co) and get the manifest content and add it to your project `AndroidManifest.xml`
+Go to [PushPole console](https://console.push-pole.com) and get the manifest content and add it to your project `AndroidManifest.xml`
 
 The manifest will be a tag like this:
 
